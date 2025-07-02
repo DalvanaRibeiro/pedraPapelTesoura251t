@@ -49,4 +49,18 @@ button:hover{
 p{
     font-size: 1.2rem;
     margin: 0.5rem 0; /* margem acima e abaixo */
+    min-height: 1.5rem; /* garante altura mínima para evitar "pulos" quando o texto muda */
+    text-align: center; /* centraliza o texto */
+    text-shadow: 0 0 6px #000dffcc; /* sombra azul para destacar o texto */
 }
+/* Estilo para o texto que mostra o vencedor */
+#winner{
+    font-weight: 700; /* negrito forte */
+    font-size: 1.5rem; /* fonte maior para destaque */
+    margin-top: 1.5rem; /* espaço acima do texto */
+    color: #fffa; /* branco com transparência */
+    text-shadow:
+    0 0 10px #0ff, /* camada 1: brilho ciano suave */
+    0 0 20px #0ff,   /* camada 2: brilho mais intenso */
+    0 0 30px #0ff; /* camada 3: brilho ainda mais forte */
+ }
